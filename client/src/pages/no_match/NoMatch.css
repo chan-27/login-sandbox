@@ -1,0 +1,14 @@
+.noMatch {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  background-color: bisque;
+  align-items: center;
+  justify-content: center;
+}
+/* * {
+  background: url("https://www.digitalmesh.com/blog/wp-content/uploads/2020/05/404-error.jpg");
+  background-repeat: no-repeat;
+
+  background-size:inherit;
+} */

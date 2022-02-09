@@ -1,0 +1,53 @@
+.Register {
+  font-family: sans-serif;
+  text-align: center;
+  background-color: blanchedalmond;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  /* border:2px dotted black; */
+}
+.form {
+  /* background-color:lightcoral; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.input {
+  /* border:2px dotted black; */
+  padding: 10px;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+.button {
+  padding: 6px 10px;
+  margin: 3px;
+  margin-top: 5px;
+  border-radius: 7px;
+  border: none;
+  background-color: rgb(194, 153, 91);
+  cursor: pointer;
+}
+
+.regbutton {
+  padding: 6px 10px;
+  margin: 3px;
+  margin-top: 5px;
+  border-radius: 7px;
+  border: none;
+  background-color: rgb(194, 153, 91);
+  cursor: pointer;
+}
+.button:disabled {
+  color: rgb(145, 110, 45);
+  cursor: auto;
+}
+
+.button:hover:enabled {
+  background-color: rgb(100, 76, 40);
+  color: white;
+}
